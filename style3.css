@@ -1,0 +1,14 @@
+
+        p {
+            font-size: 50px; /* Fonte grande no desktop */
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 50px;
+        }
+
+        /* @media query para celular (até 600px) */
+        @media (max-width: 600px) {
+            p {
+                font-size: 16px; /* Fonte reduzida no celular */
+            }
+        }
